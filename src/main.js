@@ -85,9 +85,7 @@ const like = document.getElementById("like");
 
 let sliderContainerWidht = sliderContainer.clientWidth;
 let elementShow = 4;
-if (document.body.clientWidth < 1000) {
-  elementShow = 2;
-}
+
 
 let cardWidht = sliderContainerWidht / elementShow;
 
